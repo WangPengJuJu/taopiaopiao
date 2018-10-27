@@ -1,0 +1,45 @@
+/* 是否允许子元素伸缩 */
+.flex-item {
+    -webkit-box-flex: 1.0;
+    -moz-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+}
+.flex-container{
+  width:100%;
+}
+/* 定义 */
+.flex-def {
+    position:relative;
+    width:100%;
+    padding:6px 0px 6px 0px;
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+}
+.t-center{
+  text-align: center;
+  line-height: 100%;
+}
+.activeLine
+{
+  color:#f4400b;
+}
+.active{
+  color:#f4400b;
+}
+.active-line{
+  display:inline-block;
+  width:33.33%;
+  height:2px;
+  background-color:#f4400b;
+  position:absolute;
+  bottom:0px;
+  left:0px;
+  transition: left 0.5s;
+  -webkit-transition:left 0.5s;
+  -moz-transition:left 0.5s;
+  -o-transition:left 0.5s;
+}

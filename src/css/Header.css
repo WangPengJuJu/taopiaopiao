@@ -1,0 +1,37 @@
+.header-block,.header{
+  height:50px;
+  background:red;
+  position:fixed;
+  top:0px;
+  left:0px;
+  z-index:99999;
+  width:100%;
+}
+.lh-100{
+  line-height: 50px;
+}
+.ta-center{
+  text-align: center;
+}
+.d-inline{
+  display:inline-block;
+}
+.pull-left{
+  float:left;
+}
+.pull-right{
+  float:right;
+}
+/*li:first-child{
+  width:5%;
+  height:100%;
+}
+li:nth-of-type(2){
+  width:80%;
+  height:100%;
+}*/
+.back{
+  display:inline-block;
+  width:20px;
+  height:20px;
+}
