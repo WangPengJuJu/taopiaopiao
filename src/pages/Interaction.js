@@ -4,7 +4,7 @@ import { Imgtext } from '../components/Imgtext.js';
 import { Tablist } from '../components/Tablist.js';
 import { Sliderimg } from '../components/Sliderimg.js';
 import { More } from '../components/More.js';
-import { Item1 } from '../components/Item1.js';
+import { Item3 } from '../components/Item3.js';
 import { Bottomnav } from '../components/Bottomnav.js';
 export class Interaction extends React.Component{
   constructor(props){
@@ -52,11 +52,11 @@ export class Interaction extends React.Component{
           <More></More>
         </div>
         <div style={{marginBottom:'55px',}}>
-          <Item1></Item1>
-          <Item1></Item1>
-          <Item1></Item1>
-          <Item1></Item1>
-          <Item1></Item1>
+          <Item3></Item3>
+          <Item3></Item3>
+          <Item3></Item3>
+          <Item3></Item3>
+          <Item3></Item3>
         </div>
         <Bottomnav index="4"></Bottomnav>
       </div>

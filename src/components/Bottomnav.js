@@ -90,25 +90,25 @@ export class Bottomnav extends React.Component{
     switch(index){
       case 1:
         this.props.history.push('/');
-        console.log(this.props);
+        // console.log(this.props);
         // <Redirect pathname="/" search="?name=1" />
       break;
       case 2:
         this.props.history.push('/information');
-        console.log(this.props);
+        // console.log(this.props.history);
         // this.context.router.history.push('/information');
       break;
       case 3:
         this.props.history.push('/study');
-        console.log(this.props);
+        // console.log(this.props);
       break;
       case 4:
         this.props.history.push('/interaction');
-        console.log(this.props);
+        // console.log(this.props);
       break;
       case 5:
         this.props.history.push('/my');
-        console.log(this.props);
+        // console.log(this.props);
     break;
       
     }

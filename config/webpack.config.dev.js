@@ -29,7 +29,7 @@ module.exports = {
     output:{
         path:path.resolve(__dirname,'/dist'),
         filename:'bundle.js',
-        publicPath:'/',
+        publicPath:'../',
     },
     module: {
         rules: [
@@ -90,11 +90,11 @@ module.exports = {
         ]
     },
     plugins:[
-        // new htmlWebpackPlugin({//根据模板文件自动生成入口文件index.html
-        //     template:paths.appHtml,
-        //     // filename:'index.html',
-        //     inject:true
-        // }),
+        new htmlWebpackPlugin({//根据模板文件自动生成入口文件index.html
+            template:paths.appHtml,
+            filename:'index.html',
+            inject:true
+        }),
         new webpack.HotModuleReplacementPlugin(),
     ]
 }

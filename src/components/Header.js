@@ -16,7 +16,7 @@ export class Header extends React.Component{
         height:'100%',
       },
       li2:{
-        width:'80%',
+        width:'90%',
         height:'100%',
         color:"white",
         fontSize:"16px",

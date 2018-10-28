@@ -53,9 +53,19 @@ a {
 .di-b{
   display: block;
 }
+.di-inline{
+  display: inline-block;
+	vertical-align:middle;
+}
 .active img:nth-of-type(1){
   display:none!important;
 }
 .active img:nth-of-type(2){
   display:inline-block!important;
+}
+.w-25{
+	width:25%;
+}
+.w-75{
+	width:75%;
 }

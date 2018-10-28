@@ -23,6 +23,14 @@ export class Tablist extends React.Component{
     $(e.target).addClass('activeLine');
     switch(index){
       case 0:
+      this.props.callbackFunc(0);
+      break;
+      case 1:
+      this.props.callbackFunc(1);
+      break;
+      case 2:
+      this.props.callbackFunc(2);
+      break;
 
     }
     let value = index * 33.33 + "%";

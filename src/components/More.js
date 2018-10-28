@@ -1,10 +1,15 @@
 import React from 'react';
+import {withRouter } from 'react-router-dom'
+@withRouter
 export class More extends React.Component{
   constructor(props){
     super(props);
     this.state = {};
   }
 
+  // toPage(path){
+  //   this.props.history.push(path);
+  // }
   render(){
     const style = {
       vmiddle:{
@@ -32,7 +37,7 @@ export class More extends React.Component{
     )
   }
   componentDidMount(){
-
+    // this.props.onRef(this);
   }
 
 }
